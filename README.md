@@ -246,7 +246,8 @@ To: Steve Jobs, sjobs@apple.com
 Date: Thursday, September 2, 2010 at 11:08PM
 
 
-I grow little of the food I eat, adn of the little I do grow I did not breed or perfect the seeds.
+
+I grow little of the food I eat, and of the little I do grow I did not breed or perfect the seeds.
 
 I do not make any of my own clothing.
 
