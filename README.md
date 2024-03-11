@@ -240,8 +240,11 @@ This does NOT include links to the docs, which are located at a different subdom
 
 ## Inspiration
 From: Steve Jobs, sjobs@apple.com
+
 To: Steve Jobs, sjobs@apple.com
+
 Date: Thursday, September 2, 2010 at 11:08PM
+
 
 I grow little of the food I eat, adn of the little I do grow I did not breed or perfect the seeds.
 
