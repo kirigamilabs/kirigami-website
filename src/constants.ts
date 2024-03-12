@@ -18,6 +18,7 @@ export const TWITTER_HANDLE = '@solidity_lang' as const
 
 // Navigation constants
 export const NAV_HEIGHT = 72 as const
+export const BLOG_TITLE = 'KIRIGAMI' as const
 export const BLOG_PATH = 'https://kirigami.substack.com/' as const
 export const PRODUCTS_URL = '/products' as const
 export const USE_CASES_PATH = '/use-cases' as const
