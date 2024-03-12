@@ -4,7 +4,7 @@ import {
   useColorMode,
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import { BLOG_PATH, PRODUCTS_URL, OLD_BLOG_SUBDOMAIN } from '@/constants'
+import { BLOG_PATH, DOCS_URL, OLD_BLOG_SUBDOMAIN } from '@/constants'
 interface LinkComponentProps extends LinkProps {
   hideArrow?: boolean
 }
@@ -23,7 +23,7 @@ export const Link: React.FC<LinkComponentProps> = ({
     },
   }
   const isBlogSubdomain = href.startsWith(OLD_BLOG_SUBDOMAIN)
-  const isDoc = href.startsWith(PRODUCTS_URL)
+  const isDoc = href.startsWith(DOCS_URL)
   const isExternal = href.startsWith('http') && !isDoc && !isBlogSubdomain
 
   if (isExternal)
