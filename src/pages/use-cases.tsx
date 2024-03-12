@@ -48,7 +48,7 @@ export default function UseCases() {
           <Text>
           <br/>
           <br/>
-          If you want to get started building you and your business' future, head on over to our
+          If you want to get started building you and your business&apos; future, head on over to our
           {' '}
                 <Link href="/contact">Contact page</Link>{' '}
           and reach out to find out more!

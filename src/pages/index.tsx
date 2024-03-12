@@ -62,7 +62,7 @@ export default function Home({}: HomeProps) {
               <br/>
               
               By integrating with efficient data systems and secure technology, businesses
-              can dramatically improve their customers' experiences and provide unparalleled service.
+              can dramatically improve their customers&apos; experiences and provide unparalleled service.
               Individuals, on the other hand, can learn to utilize these futuristic products
               in order to gain better control of their lives and take steps to make their dreams come true. 
               
@@ -87,7 +87,7 @@ export default function Home({}: HomeProps) {
           <ShowcaseSection startWithVisual px={0}>
             <ShowcaseContent title="The Future is Now" id="more">
               <Text>
-                Kirigami is testing the boundaries of what's possible in today's world.
+                Kirigami is testing the boundaries of what&apos;s possible in today&apos;s world.
                 Check out these ways that we can help you and your business take a leap forward into the world of tomorrow.
               </Text>
             </ShowcaseContent>

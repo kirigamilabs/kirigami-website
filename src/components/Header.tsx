@@ -70,6 +70,7 @@ export const Header: React.FC = () => {
   })
 
   const imageSrc = '/assets/kirigami-app-icon-192.png'
+  const altimageSrc = '/assets/logo.svg'
 
   return (
     <>
@@ -111,6 +112,7 @@ export const Header: React.FC = () => {
           <Link href="/" aria-label="Go home" display="block">
             <Image
               src={imageSrc}
+              alt={altimageSrc}
             />
           </Link>
         </MotionDiv>

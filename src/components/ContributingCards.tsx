@@ -49,7 +49,7 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
           },
         }}
       >
-        Data and APIs are our bread and butter. We won't stop until you 
+        Data and APIs are our bread and butter. We won&apos;t stop until you 
         and your customers have access to your business intelligence at your fingertips
         anytime, anywhere. Securely, of course.
       </Text>
@@ -112,9 +112,9 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
         }}
       >
         Artificial Intelligence is all the rage these days. But how can you and your business benefit from it? 
-        Oh boy, it's like having free, on call personal assistants. 
+        Oh boy, it&apos;s like having free, on call personal assistants. 
         We can start by leveraging AI to assist with your customer experience while also making your 
-        internal processes more efficient. But that's just the beginning...
+        internal processes more efficient. But that&apos;s just the beginning...
       </Text>
 
       <Text
@@ -142,12 +142,12 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
           },
         }}
       >
-        We are first and foremost a crypto service provider. You name it, we've got it.
+        We are first and foremost a crypto service provider. You name it, we&apos;ve got it.
         Maybe you want to start accepting Bitcoin,
         maybe you want to set up decentralized applications on Ethereum,
         or maybe you want to build out onchain programs on Solana. 
-        The sky's the limit, but we're shooting for the moon.
-        Because even if we miss, we'll land among the stars.
+        The sky&apos;s the limit, but we&apos;re shooting for the moon.
+        Because even if we miss, we&apos;ll land among the stars.
       </Text>
     </Grid>
   )
