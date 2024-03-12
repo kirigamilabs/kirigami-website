@@ -52,7 +52,7 @@ interface CompilerResultState {
 export const CompilerPlayground: React.FC<FlexProps> = (props) => {
   const { colorMode } = useColorMode()
   const [worker, setWorker] = useState<Worker | null>(null)
-  const [code, setCode] = useState<string>(examples.get('helloWorld'))
+  const [code, setCode] = useState<string>(examples.get('comingSoon'))
   const [compilerResults, setCompilerResults] = useState<CompilerResultState>({
     assembly: '',
     bytecode: '',
@@ -140,6 +140,7 @@ export const CompilerPlayground: React.FC<FlexProps> = (props) => {
         w="fit-content"
         aria-label="Contract selector"
       >
+        <option value="comingSoon">Coming Soon!</option>
         <option value="helloWorld">Hello World!</option>
         <option value="erc20">ERC20</option>
         <option value="simpleAuction">Simple Auction</option>

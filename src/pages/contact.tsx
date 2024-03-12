@@ -30,14 +30,24 @@ export default function About() {
         <Hero
           header="Contact Us"
           cta={[
-            { name: 'Contact Form', href: '/contact-form' },
+            { name: 'contact@kirigamilabs.com', href: 'mailto:contact@kirigamilabs.com' },
           ]}
         >
           Each of our products are custom tailored to your specific needs and requirements. 
-          In order to best serve you, we will need you to provide information on you and your business. 
-          <br/><br/>
+          In order to best serve you, please email us at:
         </Hero>
       </Box>
+      <Section
+        pb={[10, null, null, 12]}
+        gap={8}
+        alignItems="center"
+        textAlign="center"
+        position="relative"
+      >
+        <Box maxW="container.md" fontSize="med">
+          Please provide your name, business, and any additional information that may help us get you started.
+        </Box>
+      </Section>
     </>
   )
 }

@@ -65,14 +65,14 @@ export default function About() {
           </Text>
           <Text>
             Kirigami has grown through the years by focusing on providing the very best of what technology can offer.
-            We handle every one of our friends with the utmost care and importance. 
             In the spirit of God, we strive to make all
-            of our partnerships as harmonious and integrated as possible. 
+            of our partnerships as harmonious as possible,
+            integrating with the upmost care and importance.
             We believe that if you succeed, we all succeed and for that reason, 
             we will always treat your business as if it were our very own.
           </Text>
           <Text>
-            We pledge to do our very best for all.
+            Our pledge is to do the very best for all.
           </Text>
           <Text>
             Amen.

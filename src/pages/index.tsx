@@ -26,6 +26,8 @@ interface HomeProps {
 }
 export default function Home({}: HomeProps) {
   const sectionPaddingY = useBreakpointValue({ base: 12, md: 24 })
+  
+  //<button onClick={() => window.location.replace("#more")}><u>Find out more.</u></button>
 
   return (
     <>
@@ -41,10 +43,6 @@ export default function Home({}: HomeProps) {
         >
           The Software Provider For Businesses and Individuals Who Leverage 
           AI, Blockchain, Crypto, Data, and Much More{' '}
-          <br />
-          <br />
-          <button onClick={() => window.location.replace("/#more")}><u>Find out more.</u></button>
-          
           <PragmaWatermark />
         </Hero>
 

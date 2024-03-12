@@ -258,7 +258,7 @@ export const USE_CASES: UseCase[] = [
   {
     title: 'Decentralized Analyst and Engineering Services',
     description:
-      'Kirigami is focused on bringing the best out of every one of our partners. How you might ask? You show us a business problem, WE SOLVE IT with our arsenal of tools including: analytical services, automation, APIs, business intelligence, consulting projects, data services, process optimization, security practices, system monitoring, and a wide variety of reporting tools for any industry.',
+      'Kirigami is focused on bringing the best out of each and every one of our partners. How you might ask? You show us a business problem, WE SOLVE IT. Period. Our arsenal of tools includes: analytical services, automation, APIs, business intelligence, consulting, data services, process optimization, security practices, system monitoring, and a wide variety of reporting tools for any industry.',
     imageSrc: '/assets/use-case-glyph-3.svg',
     triangleVariant: 'heap',
     mobileTriangleVariant: 'mobileHeap',
@@ -266,7 +266,7 @@ export const USE_CASES: UseCase[] = [
   {
     title: 'Blockchain and Tokenization',
     description:
-      'Kirigami develops blockchain-based solutions and digital assets with features like secure asset ownership, gated economies, and provable scarcity. Not sure what you can use it for? The truth is that nearly everything can be improved through the use of blockchain and tokenization. Blockchain solutions provide an immutable ledger that guarantees the certainty of the information you run your business with. Tokenization, according to BlackRock CEO Larry Fink, will create "the next generation of markets." No matter how small or large your company is you should investigate how tokenization impacts your business as soon as possible. ',
+      'Kirigami develops blockchain-based solutions and digital assets with features like secure asset ownership, gated economies, and provable scarcity. Blockchain provides an immutable ledger that guarantees the certainty of the information you run your business with. Tokenization, according to BlackRock CEO Larry Fink, will create "the next generation of markets." Not sure how you can use it? The truth is that nearly everything can be improved through the use of blockchain and tokenization.  No matter how small or large your company is, you should investigate how blockchain and tokenization can impact your business. ',
     imageSrc: '/assets/use-case-glyph-4.svg',
     triangleVariant: 'mountains',
     mobileTriangleVariant: 'mobileMountains',
@@ -274,7 +274,7 @@ export const USE_CASES: UseCase[] = [
   {
     title: 'Crypto and Decentralized Finance (DeFi)',
     description:
-      'Kirigami has actively participated in the rise of Crypto and DeFi across a variety of blockchain ecosystems. How this impacts your business depends on you and your customer base, but we expect that all business will transact on crypto in the future. We have a wide array of technical capabilities that will allow you and your business to integrate key decentralized crypto applications like Bitcoin, Ethereum, Solana, Uniswap, Aave, Compound, Chainlink, and Jupiter just to name a few. Some of our products include: wallet solutions for the secure storage of digital assets, optimized interfaces for decentralized exchanges, customized lending protocols with the use of conditional payments, private relays for transaction bundling, and many many more.',
+      'Kirigami has actively participated in the rise of Crypto and DeFi across a variety of blockchain ecosystems. How this impacts your business depends on you and your customer base, but we expect that all business will transact on crypto in the future. We have a wide array of products and technical capabilities that allow you and your business to integrate key crypto applications like Bitcoin, Ethereum, Solana, Uniswap, Aave, Compound, Chainlink, and Jupiter just to name a few. Our products include: wallet solutions for the secure storage of digital assets, optimized interfaces for decentralized exchanges, customized protocols leveraging conditional payments and escrow accounts, private relays for transaction bundling, and many many more.',
     imageSrc: '/assets/use-case-glyph-1.svg',
     learnMoreLink: `${ETHEREUM_ORG_URL}/defi`,
     triangleVariant: 'defi',
@@ -283,16 +283,16 @@ export const USE_CASES: UseCase[] = [
   {
     title: 'Customer Engagement and Rewards Programs',
     description:
-      'Kirigami, by leveraging the power of AI x Crypto, is able to implement custom-tailored engagement and rewards programs. Would you like to know exactly how all your customers are doing especially when they are interacting with your products and website? Would you want to create better engagement from clients via new rewards avenues like NFTs and onchain points? This may seem overly technical, but the Metaverse is almost here and you want to be ready for it.',
+      'Kirigami, by leveraging the power of AI and Crypto, is able to implement custom-tailored engagement and rewards programs. Would you like to know more about your customers, especially when they are interacting with your products and website? Would you want to create better engagement via new avenues like NFTs and onchain points? This may seem overly technical, but the Metaverse is almost here and you want to be ready for it.',
     imageSrc: '/assets/use-case-glyph-2.svg',
     learnMoreLink: `${ETHEREUM_ORG_URL}/nft`,
     triangleVariant: 'swan',
     mobileTriangleVariant: 'mobileSwan',
   },
   {
-    title: 'Supply Chain and Traceability',
+    title: 'Supply Chain and Logistics',
     description:
-      'Kirigami can assist in any of your supply chain logistics and needs. We can implement smart contracts that enhance transparency and traceability in supply chain management. By recording transactions and verifying the authenticity of products, Kirigami-powered smart contracts can help prevent counterfeiting and improve trust in supply chain processes.',
+      'Kirigami can assist in any of your supply chain logistics and needs. With experience across a variety of industries, we are prepared to solve your most pressing concerns with the transport and inventory of your goods. We are able to implement systems that enhance transparency and traceability in supply chain management by recording transactions and verifying the authenticity of your products. Thus, helping to prevent counterfeit and improving the trust in your processes.',
     imageSrc: '/assets/use-case-glyph-5.svg',
     triangleVariant: 'sunrise',
     mobileTriangleVariant: 'mobileSunrise',
@@ -301,6 +301,13 @@ export const USE_CASES: UseCase[] = [
 
 // Examples data
 const examples = new Map()
+
+examples.set(
+  'comingSoon',
+  `// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract comingSoon {}`
+)
 
 examples.set(
   'helloWorld',
