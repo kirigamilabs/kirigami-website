@@ -57,7 +57,7 @@ const Blog: React.FC<BlogProps> = ({ allPostsData, totalPages }) => (
             animation: 'blink-cursor 1.25s step-end infinite',
           }}
         >
-          examples_below
+          Examples on how we can help you and your business below
         </Text>
 
         
