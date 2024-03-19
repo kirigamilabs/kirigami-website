@@ -73,7 +73,7 @@ export default function Home({}: HomeProps) {
               If you belive that you or your business are ready for this revolution, reach out to find out what Kirigami can do for you{' '}
               .
             </Text>
-            <ButtonLink href="/contact" variant="solid" mt={8}>
+            <ButtonLink href="/products" variant="solid" mt={8}>
               Get started
             </ButtonLink>
           </ShowcaseContent>
