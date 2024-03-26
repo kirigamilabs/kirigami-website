@@ -57,7 +57,7 @@ const Blog: React.FC<BlogProps> = ({ allPostsData, totalPages }) => (
             animation: 'blink-cursor 1.25s step-end infinite',
           }}
         >
-          Examples on how we can help you and your business below
+          Kirigami provides custom-tailored AI, Crypto, and Data Solutions
         </Text>
 
         

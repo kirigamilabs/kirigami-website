@@ -33,7 +33,7 @@ export default function Home({}: HomeProps) {
     <>
       <PageMetadata
         title="Home"
-        description="Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum."
+        description="The Software Provider For Businesses and Individuals Who Leverage AI, Blockchain, Crypto, Data, and Much More"
       />
       <Box as="main" id={MAIN_CONTENT_ID}>
         {/* HERO */}

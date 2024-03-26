@@ -25,7 +25,7 @@ export default function About() {
     <>
       <PageMetadata
         title="About"
-        description="Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum."
+        description="Kirigami is a new age solutions provider founded on the premise that AI x Crypto are the Future."
       />
       <Box as="main" id={MAIN_CONTENT_ID}>
         <Hero

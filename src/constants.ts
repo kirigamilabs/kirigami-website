@@ -73,7 +73,7 @@ export const EVENT_PAGE_DYNAMIC_ROUTE = '[event]' as const
 /**
  * Blog related constants
  */
-export const PRODUCTS_TITLE = 'Kirigami_​Products' as const
+export const PRODUCTS_TITLE = 'Our_​Products' as const
 export const BLOG_POSTS_DIR = 'src/posts' as const
 export const PAGE_PATH = '/page' as const
 export const BLOG_PAGE_PATH = `${BLOG_PATH}${PAGE_PATH}` as const
