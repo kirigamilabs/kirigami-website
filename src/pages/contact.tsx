@@ -1,5 +1,5 @@
 import { Box, Flex, FlexProps, Text } from '@chakra-ui/react'
-import { Hero, Link, PageMetadata, Section } from '@/components'
+import { Hero, PageMetadata, Section } from '@/components'
 import {
   MAIN_CONTENT_ID,
 } from '@/constants'

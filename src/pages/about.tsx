@@ -1,7 +1,6 @@
 import { Box, Flex, FlexProps, Text } from '@chakra-ui/react'
-import { Hero, Link, PageMetadata, Section } from '@/components'
+import { Hero, PageMetadata, Section } from '@/components'
 import {
-  PRODUCTS_URL,
   MAIN_CONTENT_ID,
 } from '@/constants'
 
@@ -74,11 +73,10 @@ export default function About() {
           <Text>
             Our pledge is to do the very best for all.
           </Text>
-          <Text>
-            Amen.
-          </Text>
         </Section>
       </Box>
     </>
   )
 }
+
+//Amen.
