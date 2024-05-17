@@ -27,8 +27,6 @@ export const getStaticProps: GetStaticProps = async () => {
   return { props: { allPostsData, totalPages } }
 }
 
-
-
 const Blog: React.FC<BlogProps> = ({ allPostsData, totalPages }) => (
   <>
     <PageMetadata
@@ -37,7 +35,6 @@ const Blog: React.FC<BlogProps> = ({ allPostsData, totalPages }) => (
     />
     <Box as="main" id={MAIN_CONTENT_ID}>
       <Hero header={PRODUCTS_TITLE}>
-        
         <Text
           position="relative"
           w="fit-content"
@@ -59,56 +56,55 @@ const Blog: React.FC<BlogProps> = ({ allPostsData, totalPages }) => (
         >
           Kirigami provides custom-tailored AI, Crypto, and Data Solutions
         </Text>
-
-        
       </Hero>
     </Box>
     {/* The Future is Now */}
     <Section py={useBreakpointValue({ base: 12, md: 24 })} gap={12}>
-          <ShowcaseSection startWithVisual px={0}>
-            <ShowcaseContent title="The Future is Now" id="more">
-              <Text>
-                Kirigami is testing the boundaries of what&apos;s possible in today&apos;s world.
-                Check out these ways that we can help you and your business take a leap forward into the world of tomorrow.
-              </Text>
-            </ShowcaseContent>
-            <ShowcaseVisual>
-              <Triangles variant="triforce" />
-            </ShowcaseVisual>
-          </ShowcaseSection>
+      <ShowcaseSection startWithVisual px={0}>
+        <ShowcaseContent title="The Future is Now" id="more">
+          <Text>
+            Kirigami is testing the boundaries of what&apos;s possible in
+            today&apos;s world. Check out these ways that we can help you and
+            your business take a leap forward into the world of tomorrow.
+          </Text>
+        </ShowcaseContent>
+        <ShowcaseVisual>
+          <Triangles variant="triforce" />
+        </ShowcaseVisual>
+      </ShowcaseSection>
 
-          <ContributingCards />
+      <ContributingCards />
 
-          <Flex justify="center">
-            <ButtonLink href={'/use-cases'} variant="solid">
-              Check out our Use Cases
-            </ButtonLink>
-          </Flex>
-        </Section>
+      <Flex justify="center">
+        <ButtonLink href={'/use-cases'} variant="solid">
+          Check out our Use Cases
+        </ButtonLink>
+      </Flex>
+    </Section>
 
+    {/* Playground section */}
+    <Section py={useBreakpointValue({ base: 12, md: 24 })} gap={12}>
+      <ShowcaseSection startWithVisual>
+        <ShowcaseContent title="The AI x Crypto Revolution">
+          <Text>
+            Try some of our products for yourself in this simple playground. To
+            learn more, feel free to contact us for a demo or follow along as we
+            divulge our learnings on our{' '}
+            <Link href="https://kirigami.substack.com">Substack</Link>.
+          </Text>
+        </ShowcaseContent>
+        <ShowcaseVisual>
+          <Triangles variant="double" />
+        </ShowcaseVisual>
+      </ShowcaseSection>
 
-        {/* Playground section */}
-        <Section py={useBreakpointValue({ base: 12, md: 24 })} gap={12}>
-          <ShowcaseSection startWithVisual>
-            <ShowcaseContent title="The AI x Crypto Revolution">
-              <Text>
-                Try some of our products for yourself in this simple playground. To learn more, feel free to contact us for a demo or follow along as we divulge our learnings on our {' '}
-                <Link href="https://kirigami.substack.com">Substack</Link>.
-              </Text>
-            </ShowcaseContent>
-            <ShowcaseVisual>
-              <Triangles variant="double" />
-            </ShowcaseVisual>
-          </ShowcaseSection>
-
-          {/* Interactive Solidity code editor and compiler */}
-          <CompilerPlayground />
-        </Section>
+      {/* Interactive Solidity code editor and compiler */}
+      <CompilerPlayground />
+    </Section>
   </>
 )
 
 export default Blog
-
 
 //      <BlogPostListSection
 //allPostsData={allPostsData}

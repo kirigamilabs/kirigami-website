@@ -19,19 +19,20 @@ The bug has "high" severity in affected cases, but we deem the likelihood of it 
 ## Which Contracts are Affected?
 
 The prerequisite to trigger the bug is to meet **all** of the following conditions:
+
 1. The use of [Yul optimizer](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html#yul-based-optimizer-module).
 2. The use of a custom optimizer step sequence.
 3. Presence of the [`FullInliner` step](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html#full-inliner) (`i`) in the sequence.
 4. Code in non-expression-split form being able to reach the `FullInliner` step.
 
-    It is not generally possible for the user to precisely control whether the code coming out of the
-    code generator is or is not in this form.
-    However, it is guaranteed that the code passed through the
-    [`ExpressionSplitter` step](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html#expression-splitter) (`x`)
-    is expression-split, and the opposite is true for code that is run through the
-    [`ExpressionJoiner` step](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html#expression-joiner) (`j`).
-    Therefore sequences where `i` is always preceded by `x` with no intervening occurrences of `j` are safe.
-    Other sequences may or may not be affected depending on their exact structure.
+   It is not generally possible for the user to precisely control whether the code coming out of the
+   code generator is or is not in this form.
+   However, it is guaranteed that the code passed through the
+   [`ExpressionSplitter` step](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html#expression-splitter) (`x`)
+   is expression-split, and the opposite is true for code that is run through the
+   [`ExpressionJoiner` step](https://docs.soliditylang.org/en/v0.8.21/internals/optimizer.html#expression-joiner) (`j`).
+   Therefore sequences where `i` is always preceded by `x` with no intervening occurrences of `j` are safe.
+   Other sequences may or may not be affected depending on their exact structure.
 
 Lack of user-provided Yul code (in the form of inline assembly or pure Yul input) significantly
 decreases the chances of triggering the bug.
@@ -98,6 +99,7 @@ f(add(mload(0), mload(x)), mload(1))
 ```
 
 The expression above would be evaluated in the following order:
+
 - `mload(1)`
 - `mload(x)`
 - `mload(0)`
@@ -108,6 +110,7 @@ Note that the order does not matter when the expressions have no side effects.
 Even if `mload(0)` was evaluated before `mload(x)`, the behavior of this code fragment would not change.
 
 However, the introduction of expressions with side effects changes this:
+
 ```yul
 function store(x, y) -> r {
     sstore(x, y)
@@ -161,6 +164,7 @@ This involves replacing them with local variables at the point of inlining, and 
 avoid clashes with identifiers used in the surrounding code.
 
 Yul has three kinds of expressions that can be used as call arguments:
+
 - Literals (e.g. `0x42` or `0`)
 - Identifiers (e.g. `k` or `ret`)
 - Function calls (e.g. `f(x)` or `sstore(0, sload(x))`)
