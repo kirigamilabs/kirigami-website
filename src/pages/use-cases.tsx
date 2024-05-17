@@ -15,20 +15,6 @@ export default function UseCases() {
           
         >
           Kirigami sells professional-grade AI x Crypto technology for you and your business allowing you to benefit from:
-          <br/> 
-          <br/> &oplus; best-in-class tech
-          <br/> &oplus; better compliance
-          <br/> &oplus; enhanced liquidity
-          <br/> &oplus; simplified processes
-          <br/> &oplus; improved economics
-          <br/> &oplus; increased efficiencies
-          <br/> &oplus; comprehensive security
-          
-          <br/>
-          <br/>...leading to true innovation! 
-          <br />
-          <br /><br/>
-          Below are some popular use cases:
         </Hero>
         <Section
           direction="column"
@@ -42,16 +28,25 @@ export default function UseCases() {
           ))}
         </Section>
         <Section gap={4} mb={12} maxW="container.lg" mx="auto">
-          <Text textStyle="h3" color="text">
-            ... and much more
-          </Text>
-          <Text>
-          <br/>
-          <br/>
-          If you want to get started building you and your business&apos; future, head on over to our
-          {' '}
-                <Link href="/contact">Contact page</Link>{' '}
-          and reach out to find out more!
+          <Text textStyle="h6-mono" color="text" className="items-center">
+            We offer : <br/> 
+            <br/> &oplus; best-in-class tech
+            <br/> &oplus; better compliance
+            <br/> &oplus; enhanced liquidity
+            <br/> &oplus; simplified processes
+            <br/> &oplus; improved economics
+            <br/> &oplus; increased efficiencies
+            <br/> &oplus; comprehensive security
+            
+            <br/>
+            <br/>Leading to true innovation! 
+            <br />
+            <br/>
+            <br/>
+            If you want to get started building you and your business&apos; future, head on over to our
+            {' '}
+                  <Link href="/contact">Contact page</Link>{' '}
+            and reach out to find out more!
           </Text>
         </Section>
       </Box>
