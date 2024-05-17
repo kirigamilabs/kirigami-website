@@ -8,7 +8,11 @@ import {
   Image,
 } from '@chakra-ui/react'
 import { ColorModeToggle, Link, MobileMenu, SolidityLogo } from '@/components'
-import { NAV_LINKS, NAV_HEIGHT, EVENT_PAGE_DYNAMIC_ROUTE } from '@/constants'
+import {
+  NAV_LINKS,
+  NAV_HEIGHT,
+  EVENT_PAGE_DYNAMIC_ROUTE,
+} from '@/constants'
 import {
   motion,
   useScroll,
@@ -82,6 +86,8 @@ export const Header: React.FC = () => {
         style={{ opacity }}
       />
 
+      
+
       <Flex
         position="sticky"
         zIndex="sticky"
@@ -95,16 +101,19 @@ export const Header: React.FC = () => {
       >
         {/* Soidity Logo: Positioned absolutely */}
         <MotionDiv
-          display="flex"
-          position="absolute"
-          top={4}
-          insetStart={{ base: 5, md: 8 }}
-          alignItems="end"
-          style={{ scale, y }}
-          transformOrigin="top left"
-        >
+            display="flex"
+            position="absolute"
+            top={4}
+            insetStart={{ base: 5, md: 8 }}
+            alignItems="end"
+            style={{ scale, y }}
+            transformOrigin="top left"
+          >
           <Link href="/" aria-label="Go home" display="block">
-            <Image src={imageSrc} alt={altimageSrc} />
+            <Image
+              src={imageSrc}
+              alt={altimageSrc}
+            />
           </Link>
         </MotionDiv>
         <Spacer />

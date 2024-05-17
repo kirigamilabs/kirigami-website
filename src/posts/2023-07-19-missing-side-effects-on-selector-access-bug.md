@@ -12,7 +12,7 @@ investigation of a security report related to the use of `abi.decode` with a ter
 expression that has side effects, as the type argument.
 
 The legacy code generator was not evaluating complex expressions, like assignments, function calls, or conditionals,
-whose `.selector` was being accessed.
+whose  `.selector` was being accessed.
 This led to the side-effects of such expressions not being executed, and therefore potentially incorrect behavior of
 contracts compiled using the legacy pipeline.
 The via-IR code generator behaves as expected and evaluates such expressions.

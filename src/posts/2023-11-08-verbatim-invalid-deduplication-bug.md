@@ -36,7 +36,7 @@ The conditions under which the bug might be triggered are as follows:
 
 Note that the Block Deduplicator is enabled by default when the optimizer is enabled.
 
-If your project does not include contracts written purely in Yul or does not use `verbatim`,
+If your project does not include contracts written purely in Yul or does not use ``verbatim``,
 then there is no risk of it being impacted.
 
 ## Technical Details
@@ -44,7 +44,6 @@ then there is no risk of it being impacted.
 Yul code that uses `verbatim` such as the following example is prone to the bug:
 
 `verbatim.yul`
-
 ```yul
 {
     let special := 0xFFFFFFFFFFFF
@@ -82,7 +81,7 @@ are considered identical if both have the same opcodes in the same order.
 
 The block deduplicator identifies blocks of assembly opcodes which are
 sequentially executed until reaching an opcode capable of
-altering the control flow, such as `JUMP`, `RETURN` or `REVERT`.
+altering the control flow, such as  `JUMP`, `RETURN` or `REVERT`.
 The optimizer then checks if there are two blocks formed by identical
 sequences of assembly opcodes. In case such blocks exist, the
 optimizer replaces the label referring to one block by the label of the
@@ -124,6 +123,7 @@ block referred to by `tag_2` to be erased later.
 
 The result of the bug can be
 seen in the output of the optimized code below:
+
 
 ```bash
 solc --strict-assembly verbatim.yul --asm --optimize

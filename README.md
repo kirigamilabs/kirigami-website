@@ -8,9 +8,9 @@ Homepage: [https://kirigamilabs.com](https://kirigamilabs.com)
 
 Credit: [https://github.com/ethereum/solidity-website] (https://github.com/ethereum/solidity-website)
 
-We are building on the shoulders of giants and are proud to say that we leverage tools provided by those that came before us.
+We are building on the shoulders of giants and are proud to say that we leverage tools provided by those that came before us. 
 
-Special thanks to the Ethereum and Solidity organizations for providing amazing products and thank you specifically to the author of this website template, Paul Wackerow <54227730+wackerow@users.noreply.github.com>.
+Special thanks to the Ethereum and Solidity organizations for providing amazing products and thank you specifically to the author of this website template, Paul Wackerow <54227730+wackerow@users.noreply.github.com>. 
 
 ## KirigamiLabs.com website stack
 
@@ -237,13 +237,15 @@ This does NOT include links to the docs, which are located at a different subdom
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Chakra UI Documentation](https://chakra-ui.com/docs/getting-started) - learn about Chakra UI features and API.
 
-## Inspiration
 
+## Inspiration
 From: Steve Jobs, sjobs@apple.com
 
 To: Steve Jobs, sjobs@apple.com
 
 Date: Thursday, September 2, 2010 at 11:08PM
+
+
 
 I grow little of the food I eat, and of the little I do grow I did not breed or perfect the seeds.
 
