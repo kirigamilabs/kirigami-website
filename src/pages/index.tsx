@@ -1,9 +1,13 @@
-import { Box, Text, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Flex, Text, useBreakpointValue } from '@chakra-ui/react'
 import {
   ButtonLink,
+  CompilerPlayground,
+  ContributingCards,
   Hero,
+  Link,
   PageMetadata,
   PragmaWatermark,
+  Section,
   ShowcaseContent,
   ShowcaseSection,
   ShowcaseVisual,

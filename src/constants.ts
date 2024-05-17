@@ -20,7 +20,6 @@ export const TWITTER_HANDLE = '@solidity_lang' as const
 export const NAV_HEIGHT = 72 as const
 export const BLOG_TITLE = 'KIRIGAMI' as const
 export const BLOG_PATH = 'https://kirigami.substack.com/' as const
-export const GIT_PATH = 'https://github.com/kirigamilabs' as const
 export const DOCS_URL = 'https://kirigamilabs.com/products' as const
 export const PRODUCTS_URL = '/products' as const
 export const USE_CASES_PATH = '/use-cases' as const
@@ -28,7 +27,6 @@ export const ABOUT_PATH = '/about' as const
 export const CONTACT_URL = '/contact' as const
 export const NAV_LINKS: NavLink[] = [
   { name: 'Blog', href: BLOG_PATH },
-  { name: 'Github', href: GIT_PATH },
   { name: 'Products', href: PRODUCTS_URL },
   { name: 'Use cases', href: USE_CASES_PATH },
   { name: 'About', href: ABOUT_PATH },
