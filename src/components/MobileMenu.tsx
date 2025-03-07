@@ -114,8 +114,6 @@ export const MobileMenu: React.FC<FlexProps> = (props) => {
             </Flex>
 
             <Spacer />
-
-            
           </DrawerBody>
         </DrawerContent>
       </Drawer>

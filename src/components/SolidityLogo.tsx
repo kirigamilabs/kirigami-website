@@ -1,7 +1,6 @@
 import { createIcon } from '@chakra-ui/react'
 
 const paths = [
-
   {
     opacity: 0.23,
     d: 'M50 44.3091L75 1.00781L25 1.00781L0 44.3091H50Z',

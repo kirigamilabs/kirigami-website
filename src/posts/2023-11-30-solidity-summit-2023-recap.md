@@ -17,7 +17,7 @@ The day was packed with 15+ sessions on:
 - Solidity tooling
 - Smart contract testing & security best practices
 - EVM Languages and mechanisms
-... and more!
+  ... and more!
 
 The full agenda of the day can be found [here](https://soliditylang.org/summit/). You can watch all talks by browsing through the individual videos in the [YouTube playlist](https://youtube.com/playlist?list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&si=0j2Nr6x1UKu6A-MU) or in the [StreamETH archive](https://app.streameth.org/devconnect/solidity_summit/archive).
 
@@ -25,66 +25,66 @@ The full agenda of the day can be found [here](https://soliditylang.org/summit/)
 
 Sorted by topic, here are all talks with links to the recordings and slides.
 
-### Solidity 
+### Solidity
 
 - Keynote: Solidity in 2023 - Daniel Kirchner
-    - [Recording](https://www.youtube.com/watch?v=ngOIcYDdwvk&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=2)
-    - [Slides](https://docs.google.com/presentation/d/1niz1wgjqC-pX0rOEaVXpsnI2Pl_ng16l/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=ngOIcYDdwvk&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=2)
+  - [Slides](https://docs.google.com/presentation/d/1niz1wgjqC-pX0rOEaVXpsnI2Pl_ng16l/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Slang: Building Solidity Compiler APIs from a Declarative Language Specification - Omar Tawfik
-    - [Recording](https://www.youtube.com/watch?v=OSeGhZlnz3Q&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=15)
-    - [Slides](https://docs.google.com/presentation/d/1YRVobjHqBjE2HMjJPqUpZdQk3keyoubv/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=OSeGhZlnz3Q&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=15)
+  - [Slides](https://docs.google.com/presentation/d/1YRVobjHqBjE2HMjJPqUpZdQk3keyoubv/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Experimental Solidity - Daniel Kirchner
-    - [Recording](https://www.youtube.com/watch?v=jX5VJ4wcJXM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=17)
-    - [Slides](https://docs.google.com/presentation/d/1Xx6CAWoAX8-8J8X_GfHPkGc4EvZjyhWi/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=jX5VJ4wcJXM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=17)
+  - [Slides](https://docs.google.com/presentation/d/1Xx6CAWoAX8-8J8X_GfHPkGc4EvZjyhWi/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 
 ### Tooling & Security
 
 - Decoding the EVM: A New Debugging Format for Smart Contracts - gnidan
-    - [Recording](https://www.youtube.com/watch?v=Qe3e3yg3S2A&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=3)
-    - [Slides](https://docs.google.com/presentation/d/1uX-cp8gD1FaWHFKLoODxKV-QvMJTxKCN/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=Qe3e3yg3S2A&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=3)
+  - [Slides](https://docs.google.com/presentation/d/1uX-cp8gD1FaWHFKLoODxKV-QvMJTxKCN/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - How Good Is Your Formal Specification? Mutation Testing To The Rescue! - Chandrakana Nandi
-    - [Recording](https://www.youtube.com/watch?v=g3dxF7XfBWk&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=5)
-    - [Slides](https://docs.google.com/presentation/d/15x46mKmXrv_zFGp6I5VYf7PaW-UTT1Px/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=g3dxF7XfBWk&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=5)
+  - [Slides](https://docs.google.com/presentation/d/15x46mKmXrv_zFGp6I5VYf7PaW-UTT1Px/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Solidity's most common security pitfalls (and its best safeguards) - gmhacker
-    - [Recording](https://www.youtube.com/watch?v=e1W639-fdZw&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=8)
-    - [Slides](https://docs.google.com/presentation/d/1tU75RSto5Ta7jpFRkjHIrsjBDZ3KmJcz/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=e1W639-fdZw&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=8)
+  - [Slides](https://docs.google.com/presentation/d/1tU75RSto5Ta7jpFRkjHIrsjBDZ3KmJcz/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Documenting Solidity with diagrams - Nick Addison
-    - [Recording](https://www.youtube.com/watch?v=NAbTnPiVFWY&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=10)
-    - [Slides](https://docs.google.com/presentation/d/1d5q1_phApORhdF9MlicQUxu725qH-Sem/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=NAbTnPiVFWY&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=10)
+  - [Slides](https://docs.google.com/presentation/d/1d5q1_phApORhdF9MlicQUxu725qH-Sem/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Beyond Fuzzing: Symbolic Testing in Practice - Karmacoma
-    - [Recording](https://www.youtube.com/watch?v=GFCjG5KOetM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=13)
+  - [Recording](https://www.youtube.com/watch?v=GFCjG5KOetM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=13)
 - Branching Tree Technique: Writing structured Solidity tests - Paul Razvan Berg
-    - [Recording](https://www.youtube.com/watch?v=0-EmbNVgFA4&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=14)
-    - [Slides](https://prberg.com/presentations/solidity-summit-2023/)
+  - [Recording](https://www.youtube.com/watch?v=0-EmbNVgFA4&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=14)
+  - [Slides](https://prberg.com/presentations/solidity-summit-2023/)
 
 ### EVM Languages, L2s & Mechanisms
 
 - Test your tests: The dos and don'ts of testing - Kurt Willis
-    - [Recording](https://www.youtube.com/watch?v=7TcnUZGuk_s&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=6)
-    - [Slides](https://docs.google.com/presentation/d/1uNdQbJVTKcNgK8pfw0SwdV3iRmsC4OWx/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=7TcnUZGuk_s&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=6)
+  - [Slides](https://docs.google.com/presentation/d/1uNdQbJVTKcNgK8pfw0SwdV3iRmsC4OWx/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - The Art of Huff - jtriley
-    - [Recording](https://www.youtube.com/watch?v=FxsQE6uJKI0&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=7)
-    - [Slides](https://docs.google.com/presentation/d/1-TAgs3DJDEDaVDRWbWFQLhSm1MGBh0YD/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=FxsQE6uJKI0&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=7)
+  - [Slides](https://docs.google.com/presentation/d/1-TAgs3DJDEDaVDRWbWFQLhSm1MGBh0YD/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Deep dive into L2 deployed contracts - Ren Crypto Fish
-    - [Recording](https://www.youtube.com/watch?v=tj-K5MoOJ7Y&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=9)
-    - [Slides](https://docs.google.com/presentation/d/1zM0OcAfNYoseTxJ1wHQyHVe6I2g6any4/edit#slide=id.p1)
+  - [Recording](https://www.youtube.com/watch?v=tj-K5MoOJ7Y&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=9)
+  - [Slides](https://docs.google.com/presentation/d/1zM0OcAfNYoseTxJ1wHQyHVe6I2g6any4/edit#slide=id.p1)
 - Namespace storage (for now and for a verkle EVM) - Hadrien Croudbois
-    - [Recording](https://youtu.be/sAcBfEIxqu8?si=7q8wzaWH6Ey6Yg-j)
-    - [Slides](https://docs.google.com/presentation/d/1xyxC5_35phPiH9VrLGHE_T7Kc1WpdpV8/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://youtu.be/sAcBfEIxqu8?si=7q8wzaWH6Ey6Yg-j)
+  - [Slides](https://docs.google.com/presentation/d/1xyxC5_35phPiH9VrLGHE_T7Kc1WpdpV8/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Differential Fuzzing with Foundry for Gas Optimization - Anna Caroll
-    - [Recording](https://youtu.be/wV8xuj-XsjA?si=hTe7LUKGVCjP7swA)
-    - [Slides](https://docs.google.com/presentation/d/1fd-ynbDqTbeaC-k3nywNf_ZBSBecyKBK/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://youtu.be/wV8xuj-XsjA?si=hTe7LUKGVCjP7swA)
+  - [Slides](https://docs.google.com/presentation/d/1fd-ynbDqTbeaC-k3nywNf_ZBSBecyKBK/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - How we built MUD: An onchain kernel for complex applications on Ethereum - Alvarius
-    - [Recording](https://www.youtube.com/watch?v=gQzZyWw71bo&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=16)
-    - [Slides](https://docs.google.com/presentation/d/1uCPZA3JjCM6t3fKTpqalBj6up03J3_lf/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=gQzZyWw71bo&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=16)
+  - [Slides](https://docs.google.com/presentation/d/1uCPZA3JjCM6t3fKTpqalBj6up03J3_lf/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 - Panel Discussion: State of EVM Languages - Hari (Solidity contributor), maddiaa (Huff contributor), Grant (Fe lang), jtriley (Edge), zee eighty (Vyper)
-    - [Recording](https://www.youtube.com/watch?v=uklnNmtdxSM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=14)
+  - [Recording](https://www.youtube.com/watch?v=uklnNmtdxSM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=14)
 
 ### Yul, IR, Inline Assembly
 
 - via-IR - Nikola Matić
-    - [Recording](https://www.youtube.com/watch?v=3ljewa1__UM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=4)
-    - [Slides](https://docs.google.com/presentation/d/1p0-tWokrkwoEBrzq2-xjutcKPF_ubiHn/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
+  - [Recording](https://www.youtube.com/watch?v=3ljewa1__UM&list=PLX8x7Zj6VeznJuVkZtRyKwseJdrr4mNsE&index=4)
+  - [Slides](https://docs.google.com/presentation/d/1p0-tWokrkwoEBrzq2-xjutcKPF_ubiHn/edit?usp=drive_link&ouid=105241612343296292788&rtpof=true&sd=true)
 
 ## Summit impressions
 

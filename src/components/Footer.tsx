@@ -12,7 +12,7 @@ export const Footer: React.FC = () => (
   >
     <Flex fontSize="lg" textAlign="center" flexWrap="wrap" columnGap={4}>
       <Text>•</Text>
-      <Text>2024 Kirigami Labs</Text>
+      <Text>2025 Kirigami Labs</Text>
       <Text>•</Text>
     </Flex>
   </Flex>

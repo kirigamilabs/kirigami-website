@@ -22,8 +22,6 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
       columnGap={8}
       {...props}
     >
-
-
       <Text
         textStyle="h6-mono"
         color="secondary"
@@ -49,11 +47,10 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
           },
         }}
       >
-        Data and APIs are our bread and butter. We won&apos;t stop until you 
-        and your customers have access to your business intelligence at your fingertips
-        anytime, anywhere. Securely, of course.
+        Data and APIs are our bread and butter. We won&apos;t stop until you and
+        your customers have access to your business intelligence at your
+        fingertips anytime, anywhere. Securely, of course.
       </Text>
-
 
       <Text
         textStyle="h6-mono"
@@ -80,11 +77,11 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
           },
         }}
       >
-        In this day and age, security is paramount. With a team well-versed in institutional-grade practices, we can help
-        set up your business to be protected from cyberattacks, hackers, and any other risks your business faces.
+        In this day and age, security is paramount. With a team well-versed in
+        institutional-grade practices, we can help set up your business to be
+        protected from cyberattacks, hackers, and any other risks your business
+        faces.
       </Text>
-
-      
 
       <Text
         textStyle="h6-mono"
@@ -111,10 +108,11 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
           },
         }}
       >
-        Artificial Intelligence is all the rage these days. But how can you and your business benefit from it? 
-        Oh boy, it&apos;s like having free, on call personal assistants. 
-        We can start by leveraging AI to assist with your customer experience while also making your 
-        internal processes more efficient. But that&apos;s just the beginning...
+        Artificial Intelligence is all the rage these days. But how can you and
+        your business benefit from it? Oh boy, it&apos;s like having free, on
+        call personal assistants. We can start by leveraging AI to assist with
+        your customer experience while also making your internal processes more
+        efficient. But that&apos;s just the beginning...
       </Text>
 
       <Text
@@ -142,12 +140,12 @@ export const ContributingCards: React.FC<GridProps> = (props) => {
           },
         }}
       >
-        We are first and foremost a crypto service provider. You name it, we&apos;ve got it.
-        Maybe you want to start accepting Bitcoin,
-        maybe you want to set up decentralized applications on Ethereum,
-        or maybe you want to build out onchain programs on Solana. 
-        The sky&apos;s the limit, but we&apos;re shooting for the moon.
-        Because even if we miss, we&apos;ll land among the stars.
+        We are first and foremost a crypto service provider. You name it,
+        we&apos;ve got it. Maybe you want to start accepting Bitcoin, maybe you
+        want to set up decentralized applications on Ethereum, or maybe you want
+        to build out onchain programs on Solana. The sky&apos;s the limit, but
+        we&apos;re shooting for the moon. Because even if we miss, we&apos;ll
+        land among the stars.
       </Text>
     </Grid>
   )
