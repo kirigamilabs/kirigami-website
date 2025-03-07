@@ -27,7 +27,7 @@ export const USE_CASES_PATH = '/use-cases' as const
 export const ABOUT_PATH = '/about' as const
 export const CONTACT_URL = '/contact' as const
 export const NAV_LINKS: NavLink[] = [
-  { name: 'Blog', href: BLOG_PATH },
+  //{ name: 'Blog', href: BLOG_PATH },
   { name: 'Github', href: GIT_PATH },
   { name: 'Products', href: PRODUCTS_URL },
   { name: 'Use cases', href: USE_CASES_PATH },

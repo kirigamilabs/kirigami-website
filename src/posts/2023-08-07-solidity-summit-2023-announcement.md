@@ -16,11 +16,13 @@ Solidity Summit 2023 is part of [DevConnect](https://devconnect.org/) and will t
 The Solidity Summit is a collaborative conference that focuses on Solidity's future. It is a gathering of advanced Solidity users and other Solidity ecosystem stakeholders such as language designers, tool builders, auditors, and security researchers.
 
 During the event you will:
+
 - Find out more about the most recent language proposals and new features.
 - Hear what's new from Solidity tooling and security researchers.
 - Learn from Solidity experts.
 
 ## Speaker applications are open now!
+
 The call for speakers is open! To apply for a speaking opportunity, please complete [the speaker form](https://cryptpad.fr/form/#/2/form/view/GMGhskSUobJs5pg5ZZ-l0I75kfVKdvIR0L-B0DSDxRk/).
 
 Keep in mind that the Solidity Summit is geared towards an experienced audience, which means you can get "deep" into the Solidity weeds or technical things!

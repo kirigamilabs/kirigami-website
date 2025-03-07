@@ -26,7 +26,6 @@ export const BlogHeroChild: React.FC<BlogHeroChildProps> = ({
     >
       {children}
     </Text>
-    
   </Flex>
 )
 

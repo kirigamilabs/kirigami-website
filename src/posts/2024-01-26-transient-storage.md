@@ -24,8 +24,8 @@ To raise awareness of this issue, for the time being, the compiler will emit a w
 
 A reentrancy attack exploits a smart contract vulnerability in which the victim contract has its resources drained by being repeatedly entered before the balance is updated accordingly.
 In practice, what happens is that the attacker contract deposits funds into the victim contract and then issues a call to withdraw.
-However, the attacker contract does not implement a `receive` function and this causes his ``fallback`` function to be called instead.
-Inside ``fallback``, the attacker will again make a withdrawal call to the victim contract, which will cause the process to repeat itself until there are no more funds to withdraw.
+However, the attacker contract does not implement a `receive` function and this causes his `fallback` function to be called instead.
+Inside `fallback`, the attacker will again make a withdrawal call to the victim contract, which will cause the process to repeat itself until there are no more funds to withdraw.
 This is a known security problem and the source of a variety of bugs in smart contracts.
 In order to prevent it from being exploited, it is recommended that all state changes, such as updating an account's balance, be made before calling external contracts.
 Another alternative is the use of reentrancy locks/guards.
@@ -114,7 +114,6 @@ In the above we rely on transient storage being implemented as key-value storage
 
 No reentrant calls within the two sections are possible. I.e. an external call triggered in `popA()` may end up entering `pushB()` or `popB()` (which is perfectly safe), but not `pushA()`.
 
-
 ## Composability of Smart Contracts and the Danger of Transient Storage
 
 [Composability](https://en.wikipedia.org/wiki/Composability) is a basic design principle in software development in general and [applies to smart contracts in particular](https://ethereum.org/developers/docs/smart-contracts/composability).
@@ -147,6 +146,7 @@ contract MulService {
 ```
 
 and a sequence of external calls:
+
 ```solidity
 setMultiplier(42);
 multiply(1);

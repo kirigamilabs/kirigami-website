@@ -3,6 +3,7 @@ node_modules
 .vscode
 .DS_Store
 .env
+out
 
 # rss feeds
 feed.xml

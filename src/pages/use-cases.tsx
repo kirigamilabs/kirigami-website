@@ -10,24 +10,23 @@ export default function UseCases() {
         description="Learn how Kirigami can solve your business problems."
       />
       <Box as="main" id={MAIN_CONTENT_ID}>
-        <Hero
-          header="Use Cases"
-          
-        >
-          Kirigami sells professional-grade AI x Crypto technology for you and your business allowing you to benefit from:
-          <br/> 
-          <br/> &oplus; best-in-class tech
-          <br/> &oplus; better compliance
-          <br/> &oplus; enhanced liquidity
-          <br/> &oplus; simplified processes
-          <br/> &oplus; improved economics
-          <br/> &oplus; increased efficiencies
-          <br/> &oplus; comprehensive security
-          
-          <br/>
-          <br/>...leading to true innovation! 
+        <Hero header="Use Cases">
+          Kirigami sells professional-grade AI x Crypto technology for you and
+          your business allowing you to benefit from:
           <br />
-          <br /><br/>
+          <br /> &oplus; best-in-class tech
+          <br /> &oplus; better compliance
+          <br /> &oplus; enhanced liquidity
+          <br /> &oplus; simplified processes
+          <br /> &oplus; improved economics
+          <br /> &oplus; increased efficiencies
+          <br /> &oplus; comprehensive security
+          <br />
+          <br />
+          ...leading to true innovation!
+          <br />
+          <br />
+          <br />
           Below are some popular use cases:
         </Hero>
         <Section
@@ -46,12 +45,12 @@ export default function UseCases() {
             ... and much more
           </Text>
           <Text>
-          <br/>
-          <br/>
-          If you want to get started building you and your business&apos; future, head on over to our
-          {' '}
-                <Link href="/contact">Contact page</Link>{' '}
-          and reach out to find out more!
+            <br />
+            <br />
+            If you want to get started building you and your business&apos;
+            future, head on over to our{' '}
+            <Link href="/contact">Contact page</Link> and reach out to find out
+            more!
           </Text>
         </Section>
       </Box>

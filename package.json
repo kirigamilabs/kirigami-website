@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn lint && yarn format && npx next build && yarn export",
+    "build": "bun run lint && bun run format && next build",
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
@@ -15,8 +15,12 @@
     "export": "next export -o docs"
   },
   "dependencies": {
+    "@chakra-ui/checkbox": "^2.3.2",
     "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/image": "^2.1.0",
+    "@chakra-ui/layout": "^2.3.1",
     "@chakra-ui/react": "^2.4.9",
+    "@chakra-ui/table": "^2.1.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@types/node": "18.11.18",
